@@ -1,0 +1,432 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VStudio2022\\MyCompany\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|c:\\vstudio2022\\mycompany\\mycompany.domain\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|solutionrelative:mycompany.domain\\textfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|c:\\vstudio2022\\mycompany\\mycompany.domain\\serviceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|solutionrelative:mycompany.domain\\serviceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|c:\\vstudio2022\\mycompany\\mycompany.domain\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|solutionrelative:mycompany.domain\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{113EDB7F-76FA-4EBB-9114-B3BFB231B9E1}|MyCompany.DAL\\MyCompany.DAL.csproj|c:\\vstudio2022\\mycompany\\mycompany.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{113EDB7F-76FA-4EBB-9114-B3BFB231B9E1}|MyCompany.DAL\\MyCompany.DAL.csproj|solutionrelative:mycompany.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\services\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\services\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\home\\contacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\service\\adminareaauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\service\\adminareaauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\domain\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\domain\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4460C420-AB3C-49B2-B23D-16D39A489B47}|Function\\Function.csproj|c:\\vstudio2022\\mycompany\\function\\function.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4460C420-AB3C-49B2-B23D-16D39A489B47}|Function\\Function.csproj|solutionrelative:function\\function.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81ACFDF0-B043-4FE0-834E-8FFCD9078081}|ConsoleAppThird\\ConsoleAppThird.csproj|C:\\VStudio2022\\MyCompany\\consoleappthird\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{81ACFDF0-B043-4FE0-834E-8FFCD9078081}|ConsoleAppThird\\ConsoleAppThird.csproj|solutionrelative:consoleappthird\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\mycompany.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\mycompany.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|c:\\vstudio2022\\mycompany\\mycompany.domain\\mycompany.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0322CD6E-4BFF-460A-9908-E865CF147CA6}|MyCompany.Domain\\MyCompany.Domain.csproj|solutionrelative:mycompany.domain\\mycompany.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{113EDB7F-76FA-4EBB-9114-B3BFB231B9E1}|MyCompany.DAL\\MyCompany.DAL.csproj|c:\\vstudio2022\\mycompany\\mycompany.dal\\mycompany.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{113EDB7F-76FA-4EBB-9114-B3BFB231B9E1}|MyCompany.DAL\\MyCompany.DAL.csproj|solutionrelative:mycompany.dal\\mycompany.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\migrations\\20240107212706__initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\migrations\\20240107212706__initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|c:\\vstudio2022\\mycompany\\mycompany\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1178DB-B473-4767-AF40-94B77CDDE6F5}|MyCompany\\MyCompany.csproj|solutionrelative:mycompany\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81ACFDF0-B043-4FE0-834E-8FFCD9078081}|ConsoleAppThird\\ConsoleAppThird.csproj|C:\\VStudio2022\\MyCompany\\consoleappthird\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81ACFDF0-B043-4FE0-834E-8FFCD9078081}|ConsoleAppThird\\ConsoleAppThird.csproj|solutionrelative:consoleappthird\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyCompany\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:55:56.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminAreaAuthorization.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Service\\AdminAreaAuthorization.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Service\\AdminAreaAuthorization.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Service\\AdminAreaAuthorization.cs",
+              "RelativeToolTip": "MyCompany\\Service\\AdminAreaAuthorization.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wBsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:55:49.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:55:25.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Show.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Services\\Show.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Services\\Show.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Services\\Show.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Services\\Show.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:55:18.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:55:16.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:55:14.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:54:57.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contacts.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Home\\Contacts.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Home\\Contacts.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Home\\Contacts.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Home\\Contacts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:54:53.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyCompany\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyCompany\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T23:54:49.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Domain\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Domain\\AppDbContext.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Domain\\AppDbContext.cs",
+              "RelativeToolTip": "MyCompany\\Domain\\AppDbContext.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:40:32.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MyCompany.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MyCompany.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:34:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextField.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\TextField.cs",
+              "RelativeDocumentMoniker": "MyCompany.Domain\\TextField.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\TextField.cs",
+              "RelativeToolTip": "MyCompany.Domain\\TextField.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:35:07.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceItem.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\ServiceItem.cs",
+              "RelativeDocumentMoniker": "MyCompany.Domain\\ServiceItem.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\ServiceItem.cs",
+              "RelativeToolTip": "MyCompany.Domain\\ServiceItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:35:03.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\EntityBase.cs",
+              "RelativeDocumentMoniker": "MyCompany.Domain\\EntityBase.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\EntityBase.cs",
+              "RelativeToolTip": "MyCompany.Domain\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:35:01.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Startup.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Startup.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Startup.cs",
+              "RelativeToolTip": "MyCompany\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:34:22.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Program.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Program.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Program.cs",
+              "RelativeToolTip": "MyCompany\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:34:18.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240107212706__initial.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\Migrations\\20240107212706__initial.cs",
+              "RelativeDocumentMoniker": "MyCompany\\Migrations\\20240107212706__initial.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\Migrations\\20240107212706__initial.cs",
+              "RelativeToolTip": "MyCompany\\Migrations\\20240107212706__initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAADWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:32:31.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\appsettings.json",
+              "RelativeDocumentMoniker": "MyCompany\\appsettings.json",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\appsettings.json",
+              "RelativeToolTip": "MyCompany\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T23:16:05.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Function.csproj",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\Function\\Function.csproj",
+              "RelativeDocumentMoniker": "Function\\Function.csproj",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\Function\\Function.csproj",
+              "RelativeToolTip": "Function\\Function.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-18T23:11:22.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\ConsoleAppThird\\App.config",
+              "RelativeDocumentMoniker": "ConsoleAppThird\\App.config",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\ConsoleAppThird\\App.config",
+              "RelativeToolTip": "ConsoleAppThird\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-18T23:10:59.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MyCompany.csproj",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany\\MyCompany.csproj",
+              "RelativeDocumentMoniker": "MyCompany\\MyCompany.csproj",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany\\MyCompany.csproj",
+              "RelativeToolTip": "MyCompany\\MyCompany.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-18T23:10:24.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\ConsoleAppThird\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleAppThird\\Program.cs",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\ConsoleAppThird\\Program.cs",
+              "RelativeToolTip": "ConsoleAppThird\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T23:10:17.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyCompany.Domain.csproj",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\MyCompany.Domain.csproj",
+              "RelativeDocumentMoniker": "MyCompany.Domain\\MyCompany.Domain.csproj",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany.Domain\\MyCompany.Domain.csproj",
+              "RelativeToolTip": "MyCompany.Domain\\MyCompany.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-18T23:10:03.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyCompany.DAL.csproj",
+              "DocumentMoniker": "C:\\VStudio2022\\MyCompany\\MyCompany.DAL\\MyCompany.DAL.csproj",
+              "RelativeDocumentMoniker": "MyCompany.DAL\\MyCompany.DAL.csproj",
+              "ToolTip": "C:\\VStudio2022\\MyCompany\\MyCompany.DAL\\MyCompany.DAL.csproj",
+              "RelativeToolTip": "MyCompany.DAL\\MyCompany.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-18T23:09:57.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

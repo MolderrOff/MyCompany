@@ -1,0 +1,11 @@
+C:\VStudio2022\MyCompany\Function\bin\Debug\net8.0\Function.deps.json
+C:\VStudio2022\MyCompany\Function\bin\Debug\net8.0\Function.dll
+C:\VStudio2022\MyCompany\Function\bin\Debug\net8.0\Function.pdb
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\Function.GeneratedMSBuildEditorConfig.editorconfig
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\Function.AssemblyInfoInputs.cache
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\Function.AssemblyInfo.cs
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\Function.csproj.CoreCompileInputs.cache
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\Function.dll
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\refint\Function.dll
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\Function.pdb
+C:\VStudio2022\MyCompany\Function\obj\Debug\net8.0\ref\Function.dll

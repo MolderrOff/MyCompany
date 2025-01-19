@@ -1,0 +1,22 @@
+﻿<div id="header-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                <header id="header">
+                    <h1><a href="/" id="logo">@Config.CompanyName</a></h1>
+                    <nav id="nav">
+                        <a asp-area="" asp-conroller="Home" asp-action="Index">Главная</a>
+                        <a asp-area="" asp-conroller="Services" asp-action="Index" asp-route-id="">Наши услуги</a>
+                        <a asp-area="" asp-conroller="Home" asp-action="Contacts">Контакты</a>
+                    @* asp-area=""  - область будет не админ, мы будем вне области
+                        контроллер будет home
+                        Действие - index
+                        *@
+                    </nav>
+                </header>
+
+            </div>
+        </div>
+    </div>
+</div>

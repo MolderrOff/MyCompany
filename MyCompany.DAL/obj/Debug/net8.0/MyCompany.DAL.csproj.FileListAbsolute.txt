@@ -1,0 +1,15 @@
+C:\VStudio2022\MyCompany\MyCompany.DAL\bin\Debug\net8.0\MyCompany.DAL.deps.json
+C:\VStudio2022\MyCompany\MyCompany.DAL\bin\Debug\net8.0\MyCompany.DAL.dll
+C:\VStudio2022\MyCompany\MyCompany.DAL\bin\Debug\net8.0\MyCompany.DAL.pdb
+C:\VStudio2022\MyCompany\MyCompany.DAL\bin\Debug\net8.0\MyCompany.Domain.dll
+C:\VStudio2022\MyCompany\MyCompany.DAL\bin\Debug\net8.0\MyCompany.Domain.pdb
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.csproj.AssemblyReference.cache
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.AssemblyInfoInputs.cache
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.AssemblyInfo.cs
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.csproj.CoreCompileInputs.cache
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompan.2038261A.Up2Date
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.dll
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\refint\MyCompany.DAL.dll
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\MyCompany.DAL.pdb
+C:\VStudio2022\MyCompany\MyCompany.DAL\obj\Debug\net8.0\ref\MyCompany.DAL.dll

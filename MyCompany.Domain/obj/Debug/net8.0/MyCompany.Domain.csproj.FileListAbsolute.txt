@@ -1,0 +1,11 @@
+C:\VStudio2022\MyCompany\MyCompany.Domain\bin\Debug\net8.0\MyCompany.Domain.deps.json
+C:\VStudio2022\MyCompany\MyCompany.Domain\bin\Debug\net8.0\MyCompany.Domain.dll
+C:\VStudio2022\MyCompany\MyCompany.Domain\bin\Debug\net8.0\MyCompany.Domain.pdb
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\MyCompany.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\MyCompany.Domain.AssemblyInfoInputs.cache
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\MyCompany.Domain.AssemblyInfo.cs
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\MyCompany.Domain.csproj.CoreCompileInputs.cache
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\MyCompany.Domain.dll
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\refint\MyCompany.Domain.dll
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\MyCompany.Domain.pdb
+C:\VStudio2022\MyCompany\MyCompany.Domain\obj\Debug\net8.0\ref\MyCompany.Domain.dll

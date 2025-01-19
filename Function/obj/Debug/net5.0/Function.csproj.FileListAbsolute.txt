@@ -1,0 +1,12 @@
+C:\Users\Павел\source\repos\MyCompany\Function\bin\Debug\net5.0\Function.deps.json
+C:\Users\Павел\source\repos\MyCompany\Function\bin\Debug\net5.0\Function.dll
+C:\Users\Павел\source\repos\MyCompany\Function\bin\Debug\net5.0\ref\Function.dll
+C:\Users\Павел\source\repos\MyCompany\Function\bin\Debug\net5.0\Function.pdb
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.csproj.AssemblyReference.cache
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.AssemblyInfoInputs.cache
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.AssemblyInfo.cs
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.dll
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\ref\Function.dll
+C:\Users\Павел\source\repos\MyCompany\Function\obj\Debug\net5.0\Function.pdb

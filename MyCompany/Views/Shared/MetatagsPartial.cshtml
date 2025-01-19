@@ -1,0 +1,19 @@
+﻿@using MyCompany.Service
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+@if (ViewBag.Title != null) // если тег задан, то его иначе наш
+{
+    <title>@ViewBag.Title</title>
+}
+else
+{
+    <title>@Config.CompanyName</title>  //класс config есть статическое свойство companyname; до этого было Моя компания
+}
+@if (ViewBag.Description != null)   // для описания страницы о чём здесь говорится.
+{
+    <meta name="description" content="@ViewBag.Description" />
+}
+@if (ViewBag.Keywords != null)  //для описания ключевых слов
+{
+    <meta name="keywords" content="@ViewBag.Keywords" />
+}

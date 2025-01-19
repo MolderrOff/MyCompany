@@ -1,0 +1,14 @@
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\bin\Debug\ConsoleAppThird.exe.config
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\bin\Debug\ConsoleAppThird.exe
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\bin\Debug\ConsoleAppThird.pdb
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.exe
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.pdb
+C:\Users\Павел\source\repos\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.csproj.AssemblyReference.cache
+C:\VStudio2022\MyCompany\ConsoleAppThird\bin\Debug\ConsoleAppThird.exe.config
+C:\VStudio2022\MyCompany\ConsoleAppThird\bin\Debug\ConsoleAppThird.exe
+C:\VStudio2022\MyCompany\ConsoleAppThird\bin\Debug\ConsoleAppThird.pdb
+C:\VStudio2022\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.csproj.AssemblyReference.cache
+C:\VStudio2022\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.csproj.CoreCompileInputs.cache
+C:\VStudio2022\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.exe
+C:\VStudio2022\MyCompany\ConsoleAppThird\obj\Debug\ConsoleAppThird.pdb

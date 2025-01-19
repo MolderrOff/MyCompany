@@ -1,0 +1,18 @@
+﻿@model MyCompany.Domain.TextField
+@{
+    ViewBag.Title = Model.MetaTitle; 
+    @* в качестве модели объект класса textfield через динамический контейнер viewbag
+        его свойсвтва title, desc и  keywords берём эти данные из нашей модели, которы 
+        мы заполнили в панели администратора
+        *@
+    ViewBag.Description = Model.MetaDescription;
+    ViewBag.Keywords = Model.MetaKeywords;
+
+}
+<div>
+    @Html.Raw(Model.Text)
+    <p>Для авторизации зайдите на страницу /Account/Login </a></p>
+    <p><a asp-action="Index">Вернуться на стартовую</a></p>
+    <p>Страница /Account/Login: <a href="https://localhost:44339/Account/Login">/Account/Login</a>.</p>
+    <p><a asp-action="Account/Login">/Account/Login</a></p>
+</div>

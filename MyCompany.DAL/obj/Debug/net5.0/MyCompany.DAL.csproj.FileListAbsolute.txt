@@ -1,0 +1,15 @@
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\bin\Debug\net5.0\MyCompany.DAL.deps.json
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\bin\Debug\net5.0\MyCompany.DAL.dll
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\bin\Debug\net5.0\ref\MyCompany.DAL.dll
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\bin\Debug\net5.0\MyCompany.DAL.pdb
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.csproj.AssemblyReference.cache
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.AssemblyInfoInputs.cache
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.AssemblyInfo.cs
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.csproj.CopyComplete
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.dll
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\ref\MyCompany.DAL.dll
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\obj\Debug\net5.0\MyCompany.DAL.pdb
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\bin\Debug\net5.0\MyCompany.Domain.dll
+C:\Users\Павел\source\repos\MyCompany\MyCompany.DAL\bin\Debug\net5.0\MyCompany.Domain.pdb
