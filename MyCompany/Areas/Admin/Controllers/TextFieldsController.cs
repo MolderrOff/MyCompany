@@ -18,14 +18,11 @@ namespace MyCompany.Areas.Admin.Controllers
         {
             this.dataManager = dataManager;
         }
-
-
         public ActionResult Edit(string codeWord)  //передаём кодовое слово, ищем в бд текстовое поле и передаём его в представление
         {
             var entity = dataManager.TextFields.GetTextFieldByCodeWord(codeWord);
             return View(entity);
         }
-
         // POST: TextFieldsController/Edit/5
         [HttpPost]
         public ActionResult Edit(Domain.TextField model)  //Здесь приходит модель с формы
@@ -37,7 +34,5 @@ namespace MyCompany.Areas.Admin.Controllers
             }         //и перенаправляем в хоумконтроллер действие индекс
            return View(model);
         }
-
-
     }
 }
