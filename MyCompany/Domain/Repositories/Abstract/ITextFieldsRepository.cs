@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace MyCompany.Domain.Repositories.Abstract
 {
-    public interface ITextFieldsRepository      //Интерфейс
-    //Для того чтобы сотрудник компании в панели администратора нажимал на кнопки и соотв
-    //поведение было реализовано в приложении
+    public interface ITextFieldsRepository     
     {
-        IQueryable<TextField> GetTextFields(); // метод - сделать выборку всех текстовых полей
-        TextField GetTextFieldById(Guid id); //выбрать текстовое поле по идентификатору
-        TextField GetTextFieldByCodeWord(string codeWord);  //по её кодовому слову
-        void SaveTextField(TextField entity); //сохранить соотв изменения в базу данных
+        IQueryable<TextField> GetTextFields(); 
+        TextField GetTextFieldById(Guid id); 
+        TextField GetTextFieldByCodeWord(string codeWord);  
+        void SaveTextField(TextField entity);
         void DeleteTextField(Guid id);
 
 
