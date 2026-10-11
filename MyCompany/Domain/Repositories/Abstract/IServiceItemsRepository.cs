@@ -10,10 +10,10 @@ namespace MyCompany.Domain.Repositories.Abstract
 {
     public interface IServiceItemsRepository 
     {
-        IQueryable<ServiceItem> GetServiceItems(); //выбрать все услуги
-        ServiceItem GetServiceItemById(Guid id); //выбрать услугу по ид
-        void SaveServiceItem(ServiceItem entity);  // обновить или создать услугу
-        void DeleteServiceItem(Guid id);  // удалить услугу
+        IQueryable<ServiceItem> GetServiceItems(); 
+        ServiceItem GetServiceItemById(Guid id); 
+        void SaveServiceItem(ServiceItem entity); 
+        void DeleteServiceItem(Guid id);
 
     }
 }
