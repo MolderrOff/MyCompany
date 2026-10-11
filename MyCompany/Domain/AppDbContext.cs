@@ -11,19 +11,19 @@ using System.Threading.Tasks;
 namespace MyCompany.Domain
 {
     //создаём контекст базы данных
-    public class AppDbContext : IdentityDbContext<IdentityUser>   // наследование от системного класса AppDbContext
-       //использ технология работы с пользователями Identity
+    public class AppDbContext : IdentityDbContext<IdentityUser>  
+       
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<TextField> TextFields { get; set; } //класс текстовое поле TextField мы его проецируем на базу данных
-        //доменные объекты модели - создание
-        public DbSet<ServiceItem> ServiceItems { get; set; }  //аналогично класс услуга
+        public DbSet<TextField> TextFields { get; set; }
+        
+        public DbSet<ServiceItem> ServiceItems { get; set; } 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)  //заполняем БД при создании сразу значениями по умолчанию
+        protected override void OnModelCreating(ModelBuilder modelBuilder)  
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole   //создаём роль для пользователя
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole  
             {
                 Id = "ADE0CE87-9FC6-4099-8A8F-64991AD78D5D",
                 Name = "admin",
@@ -31,7 +31,7 @@ namespace MyCompany.Domain
             });
 
             modelBuilder.Entity<IdentityUser>().HasData(
-                new IdentityUser //проверяем если сущности нет в бд, то мы создаём нового пользователя
+                new IdentityUser 
                 {
                     Id = "d0fd1403-2da6-41c3-a1df-6fe7e9d13df6",
                     UserName = "admin",
@@ -42,27 +42,27 @@ namespace MyCompany.Domain
                     PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(null, "superpassword"),
                     SecurityStamp = string.Empty
                 });
-            modelBuilder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>   //промежуточная таблица системная 
+            modelBuilder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>   
             {
-                RoleId = "ADE0CE87-9FC6-4099-8A8F-64991AD78D5D",  //связываем админа с его ролью
+                RoleId = "ADE0CE87-9FC6-4099-8A8F-64991AD78D5D",  
                 UserId = "d0fd1403-2da6-41c3-a1df-6fe7e9d13df6"
             });
-            modelBuilder.Entity<TextField>().HasData(new TextField   //содаём три объекта в бд - текстовые поля
+            modelBuilder.Entity<TextField>().HasData(new TextField   
             {
                 Id = new Guid("75923b22-ddba-412e-a03c-2d6cccde2931"),
-                CodeWord = "PageIndex",  //ключевое слово (кодовое слово) PageIndex главная страница на нашем сайте
+                CodeWord = "PageIndex", 
                 Title = "Главная"
             });
-            modelBuilder.Entity<TextField>().HasData(new TextField   //содаём три объекта в бд - текстовые поля
+            modelBuilder.Entity<TextField>().HasData(new TextField  
             {
                 Id = new Guid("31ed769f-5aa3-43c3-97ed-cda0cf820cd3"),
-                CodeWord = "PageServices",  //ключевое слово наши услуги
+                CodeWord = "PageServices",  
                 Title = "Наши услуги"
             });
-            modelBuilder.Entity<TextField>().HasData(new TextField   //содаём три объекта в бд - текстовые поля
+            modelBuilder.Entity<TextField>().HasData(new TextField   
             {
                 Id = new Guid("ade06cc3-181c-41ea-a1dd-d98e825c01a9"),
-                CodeWord = "PageContacts",  //ключевое слово 
+                CodeWord = "PageContacts", 
                 Title = "контакты"
             });
 
