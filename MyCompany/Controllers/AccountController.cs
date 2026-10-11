@@ -11,7 +11,7 @@ using MyCompany.Models;
 
 namespace MyCompany.Controllers
 {
-    [Authorize] // для данной области на сайте действует правило авторизации
+    [Authorize] 
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> userManager;
@@ -19,19 +19,19 @@ namespace MyCompany.Controllers
 
         public AccountController(UserManager<IdentityUser> userMgr, SignInManager<IdentityUser> signinMgr)
         {
-            userManager = userMgr; //через внедрение зависимостей этого класса через конструктор передаём userManager 
-            signInManager = signinMgr; // для того чтобы оперировать пользователями в БД через контекст
+            userManager = userMgr; 
+            signInManager = signinMgr; 
         }
 
-        [AllowAnonymous] // атрибут, чтобы залогиниться на сайте нужно быть анонимным пользователем
-        // действие логин исключается из правила Authorize
-        public IActionResult Login(string returnUrl)  //действие login
+        [AllowAnonymous] 
+      
+        public IActionResult Login(string returnUrl) 
         {
             ViewBag.returnUrl = returnUrl;
-            return View(new LoginViewModel()); //передаём в качестве модели в представление только что созданную LoginViewModel.cs в представление Login
+            return View(new LoginViewModel()); //п
         }
 
-        [HttpPost] //пост версия этого действия Login
+        [HttpPost] 
         [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model, string returnUrl)
         {
@@ -41,9 +41,9 @@ namespace MyCompany.Controllers
                 if (user != null)
                 {
                     await signInManager.SignOutAsync();
-                    Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false); //пытаемся зайти, model.Password - пароль с модели, с html формы
-                    // также передаём флажокmodel.RememberMe запомнить меня, (и м. б.  последнее свойство заблокировать пользователя при неудачно попытке входа)
-                    if (result.Succeeded) //если действие успешное то перенаправляем пользователя по returnUrl
+                    Microsoft.AspNetCore.Identity.SignInResult result = await signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                  
+                    if (result.Succeeded)
                     {
                         return Redirect(returnUrl ?? "/");
                     }
@@ -51,17 +51,17 @@ namespace MyCompany.Controllers
 
                 ModelState.AddModelError(nameof(LoginViewModel.UserName), "Неверный логин или пароль");
             }
-            //если пользователь не найден
-            return View(model); //и отправляем модель в браузер пользователя с этой ошибкой
+          
+            return View(model);
         }
 
-        //----------------------добавил --->>>
+        
         [Authorize]
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
-        //---------------------добавил ---<<<
+       
     }
 }
