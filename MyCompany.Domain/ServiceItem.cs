@@ -7,12 +7,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyCompany.Domain
 {
-    public class ServiceItem : EntityBase // второй доменный объект какая-то услуга на сайте, наследуется от базового класса
+    public class ServiceItem : EntityBase 
     {
         [Required(ErrorMessage = "Заполните название услуги")]
         [Display(Name = "Название услуги")]
-        public override string Title { get; set; } //переопределяем свойство Title Делаем его обязательным
-        // все остальные свойства возьмутся из базового класса например картинку
+        public override string Title { get; set; }
+        
         [Display(Name = "Краткое содержание услуги")]
         public override string Subtitle { get; set; }
 
