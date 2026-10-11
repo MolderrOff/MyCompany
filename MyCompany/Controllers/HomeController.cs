@@ -10,7 +10,7 @@ namespace MyCompany.Controllers
  
     public class HomeController : Controller
     {
-        private readonly DataManager dataManager; //для того чтобы иметь доступ к БД
+        private readonly DataManager dataManager; 
 
         public HomeController(DataManager dataManager)
         {
