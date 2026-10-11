@@ -10,28 +10,28 @@ using MyCompany.Service;
 
 namespace MyCompany.Areas.Admin.Controllers
 {
-    [Area("Admin")]  //атрибут ареа чтобы сработало соглашение для админ ареа
+    [Area("Admin")]  
     public class TextFieldsController : Controller
     {
-        private readonly DataManager dataManager;  //чтобы иметь доступ доменной модели к нашей бд
+        private readonly DataManager dataManager;  
         public TextFieldsController(DataManager dataManager)
         {
             this.dataManager = dataManager;
         }
-        public ActionResult Edit(string codeWord)  //передаём кодовое слово, ищем в бд текстовое поле и передаём его в представление
+        public ActionResult Edit(string codeWord) 
         {
             var entity = dataManager.TextFields.GetTextFieldByCodeWord(codeWord);
             return View(entity);
         }
         // POST: TextFieldsController/Edit/5
         [HttpPost]
-        public ActionResult Edit(Domain.TextField model)  //Здесь приходит модель с формы
+        public ActionResult Edit(Domain.TextField model) 
         {
             if (ModelState.IsValid)
             {
-                dataManager.TextFields.SaveTextField(model); //если модель валидная то сохраняем в бд текстовое поле 
+                dataManager.TextFields.SaveTextField(model); 
                 return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController());
-            }         //и перенаправляем в хоумконтроллер действие индекс
+            }        
            return View(model);
         }
     }
