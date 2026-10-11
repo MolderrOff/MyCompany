@@ -10,7 +10,7 @@ namespace MyCompany.Service
     {
         public static string CutController(this string str)
         {
-            return str.Replace("Controller", ""); //во входной строке HomeController вырезаем вхождение controller
+            return str.Replace("Controller", ""); 
         }
         
     }
