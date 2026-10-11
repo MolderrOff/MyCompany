@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MyCompany.Domain.Repositories.Abstract;
 
-namespace MyCompany.Domain //класс в которо м централизованно управление репозиторием
+namespace MyCompany.Domain 
 {
     public class DataManager
     {
