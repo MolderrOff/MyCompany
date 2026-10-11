@@ -10,10 +10,10 @@ using MyCompany.Service;
 namespace MyCompany.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class ServiceItemsController : Controller // для редактирования услуг на сайте
+    public class ServiceItemsController : Controller 
     {
         private readonly DataManager dataManager;
-        private readonly IWebHostEnvironment hostingEnvironment; //передаём хостинг окружение. чтобы сохранять титульные картинки
+        private readonly IWebHostEnvironment hostingEnvironment; 
         public ServiceItemsController(DataManager dataManager, IWebHostEnvironment hostingEnvironment)
         {
             this.dataManager = dataManager;
@@ -27,8 +27,8 @@ namespace MyCompany.Areas.Admin.Controllers
 (id);
             return View(entity);
         }
-        [HttpPost]  //
-        public IActionResult Edit(Domain.ServiceItem model, IFormFile titleImageFile) //входящий файл никак не проверяется
+        [HttpPost]  
+        public IActionResult Edit(Domain.ServiceItem model, IFormFile titleImageFile) 
         {
             if (ModelState.IsValid)
             {
@@ -40,14 +40,15 @@ namespace MyCompany.Areas.Admin.Controllers
                         titleImageFile.CopyTo(stream);
                     }
                 }
-                dataManager.ServiceItems.SaveServiceItem(model);  //сохраняем услугу
-                return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController());  //и перенаправляем пользователя на главную страницу в админке
+                dataManager.ServiceItems.SaveServiceItem(model); 
+                return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController()); 
+               
             }
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult Delete(Guid id) //можно удалять услуги из базы данных
+        public IActionResult Delete(Guid id)
         {
             dataManager.ServiceItems.DeleteServiceItem(id);
             return RedirectToAction(nameof(HomeController.Index), nameof(HomeController).CutController());
