@@ -11,7 +11,7 @@ namespace MyCompany.Models
     {
         [Required]
         [Display(Name = "Логин")]
-        public string UserName { get; set; } // пользователь должен ввести на форме свой логин
+        public string UserName { get; set; } 
 
         [Required]
         [UIHint("password")]
@@ -20,7 +20,7 @@ namespace MyCompany.Models
 
 
         [Display(Name = "Запомнить меня?")]
-        public bool RememberMe { get; set; } //чтобы тэг хелпер понял что это не текстовое поле, а чекбокс
+        public bool RememberMe { get; set; } 
 
     }
 }
