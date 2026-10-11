@@ -17,7 +17,7 @@ namespace MyCompany.Controllers
             this.dataManager = dataManager;
         }
 
-        public IActionResult Index(Guid id) //На входе параметр id
+        public IActionResult Index(Guid id) 
         {
             if (id != default)
             {
