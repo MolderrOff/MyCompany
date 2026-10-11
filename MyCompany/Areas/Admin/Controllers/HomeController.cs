@@ -8,18 +8,18 @@ using MyCompany.Domain;
 
 namespace MyCompany.Areas.Admin.Controllers
 {
-    [Area("Admin")] //по этому атрибуту определяется правило Aythrization
+    [Area("Admin")] 
     public class HomeController : Controller
     {
-        private readonly DataManager dataManager;//чтобы был доступ к доменным объектам
+        private readonly DataManager dataManager;
 
-        public HomeController(DataManager dataManager) //его мы передадим через хоумконтроллер конструктор
+        public HomeController(DataManager dataManager)
         {
             this.dataManager = dataManager;
         }
         public IActionResult Index()
         {
-            return View(dataManager.ServiceItems.GetServiceItems()); //на главную страницу выведем список всех услуг которые есть на сайте
+            return View(dataManager.ServiceItems.GetServiceItems());
         }
         
     }
